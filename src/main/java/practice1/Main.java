@@ -5,16 +5,17 @@ import java.util.Scanner;
 
 public class Main {
 
-
     public static void main(String[] args) {
 
+        CarsDealer dealerCarsList = new CarsDealer();
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter your new Balance");
+        System.out.println(dealerCarsList.car1.toString());
+        System.out.println(dealerCarsList.car2.toString());
 
-        ArrayList<Double> currentBalance = new ArrayList<>();
-        currentBalance.add(scanner.nextDouble());
 
-        System.out.println("My current balance is " + currentBalance);
     }
+
+    //TODO: let go to CarsDealer and buy some cars
+
+
 }
